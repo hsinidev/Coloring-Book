@@ -1,0 +1,102 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="400dp"
+    android:viewportWidth="400"
+    android:viewportHeight="400">
+
+    <path
+        android:id="bg"
+        android:pathData="M 0,0 L 400,0 L 400,400 L 0,400 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="1"/>
+    <path
+        android:id="car_roof"
+        android:pathData="M 130,110 L 230,110 L 248,180 L 100,180 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="windshield"
+        android:pathData="M 140,115 L 220,115 L 238,175 L 115,175 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="hood"
+        android:pathData="M 248,180 L 308,195 L 308,230 L 230,230 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="bumper_front"
+        android:pathData="M 308,230 L 308,250 L 320,250 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="door_front"
+        android:pathData="M 180,180 L 250,180 L 250,250 L 180,250 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="door_rear"
+        android:pathData="M 100,180 L 180,180 L 180,250 L 100,250 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="rear_trunk"
+        android:pathData="M 100,180 L 54,190 L 54,230 L 100,230 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="bumper_rear"
+        android:pathData="M 54,230 L 54,250 L 80,250 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="wheel_outer_0"
+        android:pathData="M 92,250 A 18,18 0 1,1 128,250 A 18,18 0 1,1 92,250 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="wheel_0_rim_0"
+        android:pathData="M 110,250 L 119.0,250.0 L 110.0,259.0 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="wheel_0_rim_1"
+        android:pathData="M 110,250 L 110.0,259.0 L 101.0,250.0 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="wheel_0_rim_2"
+        android:pathData="M 110,250 L 101.0,250.0 L 110.0,241.0 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="wheel_0_rim_3"
+        android:pathData="M 110,250 L 110.0,241.0 L 119.0,250.0 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="wheel_outer_1"
+        android:pathData="M 272,250 A 18,18 0 1,1 308,250 A 18,18 0 1,1 272,250 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="wheel_1_rim_0"
+        android:pathData="M 290,250 L 299.0,250.0 L 290.0,259.0 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="wheel_1_rim_1"
+        android:pathData="M 290,250 L 290.0,259.0 L 281.0,250.0 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="wheel_1_rim_2"
+        android:pathData="M 290,250 L 281.0,250.0 L 290.0,241.0 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="wheel_1_rim_3"
+        android:pathData="M 290,250 L 290.0,241.0 L 299.0,250.0 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+</vector>

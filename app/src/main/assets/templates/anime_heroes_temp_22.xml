@@ -1,0 +1,82 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="400dp"
+    android:viewportWidth="400"
+    android:viewportHeight="400">
+
+    <path
+        android:id="bg"
+        android:pathData="M 0,0 L 400,0 L 400,400 L 0,400 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="1"/>
+    <path
+        android:id="shuriken_blade_l_0"
+        android:pathData="M 200,200 L 236.0,200.0 L 313.3,282.3 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="shuriken_blade_r_0"
+        android:pathData="M 200,200 L 211.1,234.2 L 313.3,282.3 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="shuriken_blade_l_1"
+        android:pathData="M 200,200 L 211.1,234.2 L 156.7,333.1 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="shuriken_blade_r_1"
+        android:pathData="M 200,200 L 170.9,221.2 L 156.7,333.1 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="shuriken_blade_l_2"
+        android:pathData="M 200,200 L 170.9,221.2 L 60.0,200.0 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="shuriken_blade_r_2"
+        android:pathData="M 200,200 L 170.9,178.8 L 60.0,200.0 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="shuriken_blade_l_3"
+        android:pathData="M 200,200 L 170.9,178.8 L 156.7,66.9 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="shuriken_blade_r_3"
+        android:pathData="M 200,200 L 211.1,165.8 L 156.7,66.9 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="shuriken_blade_l_4"
+        android:pathData="M 200,200 L 211.1,165.8 L 313.3,117.7 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="shuriken_blade_r_4"
+        android:pathData="M 200,200 L 236.0,200.0 L 313.3,117.7 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="shuriken_core_0"
+        android:pathData="M 200,200 L 218.0,200.0 L 200.0,218.0 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="shuriken_core_1"
+        android:pathData="M 200,200 L 200.0,218.0 L 182.0,200.0 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="shuriken_core_2"
+        android:pathData="M 200,200 L 182.0,200.0 L 200.0,182.0 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="shuriken_core_3"
+        android:pathData="M 200,200 L 200.0,182.0 L 218.0,200.0 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+</vector>

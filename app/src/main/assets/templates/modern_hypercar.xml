@@ -1,0 +1,38 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="400dp"
+    android:viewportWidth="400"
+    android:viewportHeight="400">
+    <!-- Car body outline -->
+    <path
+        android:id="body_top"
+        android:pathData="M 50,250 C 50,150 150,100 250,100 C 350,100 350,250 350,250 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="body_bottom"
+        android:pathData="M 50,250 L 350,250 L 350,300 L 50,300 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    
+    <!-- Windshield -->
+    <path
+        android:id="windshield"
+        android:pathData="M 150,120 L 250,120 L 220,180 L 180,180 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    
+    <!-- Left wheel -->
+    <path
+        android:id="wheel_left"
+        android:pathData="M 100,270 A 30,30 0 1,0 100,330 A 30,30 0 1,0 100,270 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    
+    <!-- Right wheel -->
+    <path
+        android:id="wheel_right"
+        android:pathData="M 300,270 A 30,30 0 1,0 300,330 A 30,30 0 1,0 300,270 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+</vector>

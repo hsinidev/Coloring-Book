@@ -1,0 +1,27 @@
+﻿App Name: Coloring Book
+Version: 1.0.0
+Platform: Android (Kotlin + Jetpack Compose)
+Category: Art / Entertainment / Relaxation
+Target Market: Global
+Price Model: Free 20 pages + $4.99/month Pro (500+ pages)
+
+Description:
+A beautiful digital coloring book for adults and kids with hundreds of intricate designs, infinite color palette, and calming background music. Mindful coloring on your phone.
+
+Key Features:
+- 500+ coloring pages: mandalas, nature, animals, fantasy, geometric, cities
+- Infinite color palette with eyedropper and custom hex input
+- Multiple brush tools: fill, paintbrush, pencil, gradient fill
+- Zoom in for ultra-precise coloring of fine details
+- Undo/redo (unlimited)
+- Save and resume unfinished colorings
+- Export finished art as high-resolution PNG
+- Share to Instagram, Pinterest, WhatsApp
+- Calming ambient background music player
+- Daily free coloring page challenge
+- Time-lapse playback of your coloring session
+- Kid mode: simple designs with large areas for children
+
+Target Audience: Adults seeking mindful relaxation, art enthusiasts, parents with kids ages 5-10
+Competitors: Pigment, Colorfy, Happy Color, Recolor
+Unique Value Proposition: Best-in-class zoom precision + time-lapse recording of your coloring session

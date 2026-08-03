@@ -1,0 +1,172 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="400dp"
+    android:viewportWidth="400"
+    android:viewportHeight="400">
+
+    <path
+        android:id="bg"
+        android:pathData="M 0,0 L 400,0 L 400,400 L 0,400 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="1"/>
+    <path
+        android:id="spiro_outer_s0"
+        android:pathData="M 200,200 L 365.0,200.0 L 361.2,192.6 L 350.1,186.3 L 332.3,182.0 L 308.8,180.7 L 280.8,182.8 L 250.0,188.8 L 217.9,198.5 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="spiro_outer_s1"
+        android:pathData="M 200,200 L 217.9,198.5 L 186.3,211.6 L 156.7,227.4 L 130.7,245.0 L 109.4,263.2 L 93.7,280.8 L 84.1,296.4 L 80.8,308.8 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="spiro_outer_s2"
+        android:pathData="M 200,200 L 80.8,308.8 L 83.3,316.7 L 91.2,319.2 L 103.6,315.9 L 119.2,306.3 L 136.8,290.6 L 155.0,269.3 L 172.6,243.3 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="spiro_outer_s3"
+        android:pathData="M 200,200 L 172.6,243.3 L 188.4,213.7 L 201.5,182.1 L 211.2,150.0 L 217.2,119.2 L 219.3,91.2 L 218.0,67.7 L 213.7,49.9 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="spiro_outer_s4"
+        android:pathData="M 200,200 L 213.7,49.9 L 207.4,38.8 L 200.0,35.0 L 192.6,38.8 L 186.3,49.9 L 182.0,67.7 L 180.7,91.2 L 182.8,119.2 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="spiro_outer_s5"
+        android:pathData="M 200,200 L 182.8,119.2 L 188.8,150.0 L 198.5,182.1 L 211.6,213.7 L 227.4,243.3 L 245.0,269.3 L 263.2,290.6 L 280.8,306.3 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="spiro_outer_s6"
+        android:pathData="M 200,200 L 280.8,306.3 L 296.4,315.9 L 308.8,319.2 L 316.7,316.7 L 319.2,308.8 L 315.9,296.4 L 306.3,280.8 L 290.6,263.2 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="spiro_outer_s7"
+        android:pathData="M 200,200 L 290.6,263.2 L 269.3,245.0 L 243.3,227.4 L 213.7,211.6 L 182.1,198.5 L 150.0,188.8 L 119.2,182.8 L 91.2,180.7 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="spiro_outer_s8"
+        android:pathData="M 200,200 L 91.2,180.7 L 67.7,182.0 L 49.9,186.3 L 38.8,192.6 L 35.0,200.0 L 38.8,207.4 L 49.9,213.7 L 67.7,218.0 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="spiro_outer_s9"
+        android:pathData="M 200,200 L 67.7,218.0 L 91.2,219.3 L 119.2,217.2 L 150.0,211.2 L 182.1,201.5 L 213.7,188.4 L 243.3,172.6 L 269.3,155.0 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="spiro_outer_s10"
+        android:pathData="M 200,200 L 269.3,155.0 L 290.6,136.8 L 306.3,119.2 L 315.9,103.6 L 319.2,91.2 L 316.7,83.3 L 308.8,80.8 L 296.4,84.1 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="spiro_outer_s11"
+        android:pathData="M 200,200 L 296.4,84.1 L 280.8,93.7 L 263.2,109.4 L 245.0,130.7 L 227.4,156.7 L 211.6,186.3 L 198.5,217.9 L 188.8,250.0 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="spiro_outer_s12"
+        android:pathData="M 200,200 L 188.8,250.0 L 182.8,280.8 L 180.7,308.8 L 182.0,332.3 L 186.3,350.1 L 192.6,361.2 L 200.0,365.0 L 207.4,361.2 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="spiro_outer_s13"
+        android:pathData="M 200,200 L 207.4,361.2 L 213.7,350.1 L 218.0,332.3 L 219.3,308.8 L 217.2,280.8 L 211.2,250.0 L 201.5,217.9 L 188.4,186.3 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="spiro_outer_s14"
+        android:pathData="M 200,200 L 188.4,186.3 L 172.6,156.7 L 155.0,130.7 L 136.8,109.4 L 119.2,93.7 L 103.6,84.1 L 91.2,80.8 L 83.3,83.3 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="spiro_outer_s15"
+        android:pathData="M 200,200 L 83.3,83.3 L 80.8,91.2 L 84.1,103.6 L 93.7,119.2 L 109.4,136.8 L 130.7,155.0 L 156.7,172.6 L 186.3,188.4 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="spiro_inner_s0"
+        android:pathData="M 200,200 L 230.0,200.0 L 227.7,211.5 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="spiro_inner_s1"
+        android:pathData="M 200,200 L 227.7,211.5 L 221.2,221.2 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="spiro_inner_s2"
+        android:pathData="M 200,200 L 221.2,221.2 L 211.5,227.7 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="spiro_inner_s3"
+        android:pathData="M 200,200 L 211.5,227.7 L 200.0,230.0 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="spiro_inner_s4"
+        android:pathData="M 200,200 L 200.0,230.0 L 188.5,227.7 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="spiro_inner_s5"
+        android:pathData="M 200,200 L 188.5,227.7 L 178.8,221.2 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="spiro_inner_s6"
+        android:pathData="M 200,200 L 178.8,221.2 L 172.3,211.5 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="spiro_inner_s7"
+        android:pathData="M 200,200 L 172.3,211.5 L 170.0,200.0 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="spiro_inner_s8"
+        android:pathData="M 200,200 L 170.0,200.0 L 172.3,188.5 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="spiro_inner_s9"
+        android:pathData="M 200,200 L 172.3,188.5 L 178.8,178.8 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="spiro_inner_s10"
+        android:pathData="M 200,200 L 178.8,178.8 L 188.5,172.3 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="spiro_inner_s11"
+        android:pathData="M 200,200 L 188.5,172.3 L 200.0,170.0 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="spiro_inner_s12"
+        android:pathData="M 200,200 L 200.0,170.0 L 211.5,172.3 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="spiro_inner_s13"
+        android:pathData="M 200,200 L 211.5,172.3 L 221.2,178.8 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="spiro_inner_s14"
+        android:pathData="M 200,200 L 221.2,178.8 L 227.7,188.5 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="spiro_inner_s15"
+        android:pathData="M 200,200 L 227.7,188.5 L 230.0,200.0 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+</vector>

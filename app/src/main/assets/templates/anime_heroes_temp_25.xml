@@ -1,0 +1,82 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="400dp"
+    android:viewportWidth="400"
+    android:viewportHeight="400">
+
+    <path
+        android:id="bg"
+        android:pathData="M 0,0 L 400,0 L 400,400 L 0,400 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="1"/>
+    <path
+        android:id="hair_spike_0"
+        android:pathData="M 110.0,200.0 Q 105.4,146.1 100.9,152.3 L 200,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="hair_spike_1"
+        android:pathData="M 100.9,152.3 Q 122.4,111.0 143.9,129.6 L 200,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="hair_spike_2"
+        android:pathData="M 143.9,129.6 Q 159.7,81.2 175.5,92.8 L 200,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="hair_spike_3"
+        android:pathData="M 175.5,92.8 Q 197.8,72.5 220.0,112.3 L 200,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="hair_spike_4"
+        android:pathData="M 220.0,112.3 Q 244.3,83.1 268.6,114.0 L 200,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="hair_spike_5"
+        android:pathData="M 268.6,114.0 Q 274.8,107.5 281.1,161.0 L 200,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="hair_spike_6"
+        android:pathData="M 281.1,161.0 Q 295.5,150.5 310.0,200.0 L 200,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="anime_face_l"
+        android:pathData="M 120,160 L 200,236 L 200,140 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="anime_face_r"
+        android:pathData="M 280,160 L 200,236 L 200,140 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="eye_l_out"
+        android:pathData="M 140,170 Q 160,170-15 180,170 Q 160,180 140,170 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="eye_l_pupil"
+        android:pathData="M 152,170 Q 160,170-9.0 168,170 Q 160,175 152,170 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="eye_r_out"
+        android:pathData="M 220,170 Q 240,170-15 260,170 Q 240,180 220,170 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="eye_r_pupil"
+        android:pathData="M 232,170 Q 240,170-9.0 248,170 Q 240,175 232,170 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="mouth"
+        android:pathData="M 185,210 Q 200,210+4 215,210 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+</vector>

@@ -1,0 +1,62 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="400dp"
+    android:viewportWidth="400"
+    android:viewportHeight="400">
+
+    <path
+        android:id="bg"
+        android:pathData="M 0,0 L 400,0 L 400,400 L 0,400 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="1"/>
+    <path
+        android:id="rep_body"
+        android:pathData="M 130,220 Q 200,160 270,220 Q 270,280 200,290 Q 130,280 130,220 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="rep_eye_l"
+        android:pathData="M 155,185 A 15,15 0 1,1 185,185 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="rep_eye_r"
+        android:pathData="M 215,185 A 15,15 0 1,1 245,185 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="rep_pupil_l"
+        android:pathData="M 165,185 A 4,4 0 1,1 173,185 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="rep_pupil_r"
+        android:pathData="M 225,185 A 4,4 0 1,1 233,185 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="rep_mouth"
+        android:pathData="M 170,220 Q 200,240 230,220 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="rep_leg_fl"
+        android:pathData="M 130,230 Q 70,230 110,280 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="rep_leg_fr"
+        android:pathData="M 270,230 Q 330,230 290,280 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="rep_leg_bl"
+        android:pathData="M 145,280 Q 85,310 130,330 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="rep_leg_br"
+        android:pathData="M 255,280 Q 315,310 270,330 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+</vector>

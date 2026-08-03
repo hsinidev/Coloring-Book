@@ -1,0 +1,92 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="400dp"
+    android:viewportWidth="400"
+    android:viewportHeight="400">
+
+    <path
+        android:id="bg"
+        android:pathData="M 0,0 L 400,0 L 400,400 L 0,400 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="1"/>
+    <path
+        android:id="truck_roof"
+        android:pathData="M 120,120 L 280,120 L 300,150 L 100,150 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="truck_window_l"
+        android:pathData="M 130,125 L 195,125 L 195,145 L 120,145 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="truck_window_r"
+        android:pathData="M 205,125 L 270,125 L 280,145 L 205,145 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="truck_hood"
+        android:pathData="M 90,150 L 310,150 L 320,240 L 80,240 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="grill_outer"
+        android:pathData="M 120,180 L 280,180 L 280,230 L 120,230 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="grill_bar_0"
+        android:pathData="M 125.0,185 L 143.3,185 L 143.3,225 L 125.0,225 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="grill_bar_1"
+        android:pathData="M 148.3,185 L 166.7,185 L 166.7,225 L 148.3,225 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="grill_bar_2"
+        android:pathData="M 171.7,185 L 190.0,185 L 190.0,225 L 171.7,225 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="grill_bar_3"
+        android:pathData="M 195.0,185 L 213.3,185 L 213.3,225 L 195.0,225 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="grill_bar_4"
+        android:pathData="M 218.3,185 L 236.7,185 L 236.7,225 L 218.3,225 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="grill_bar_5"
+        android:pathData="M 241.7,185 L 260.0,185 L 260.0,225 L 241.7,225 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="headlight_l"
+        android:pathData="M 76,200 A 19,19 0 1,1 114,200 A 19,19 0 1,1 76,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="headlight_r"
+        android:pathData="M 286,200 A 19,19 0 1,1 324,200 A 19,19 0 1,1 286,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="tyre_l"
+        android:pathData="M 80,240 L 110,240 L 110,295 L 80,295 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="tyre_r"
+        android:pathData="M 290,240 L 320,240 L 320,295 L 290,295 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="bumper_front"
+        android:pathData="M 70,240 L 330,240 L 330,265 L 70,265 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+</vector>

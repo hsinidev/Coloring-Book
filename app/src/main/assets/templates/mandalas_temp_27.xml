@@ -1,0 +1,132 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="400dp"
+    android:viewportWidth="400"
+    android:viewportHeight="400">
+
+    <path
+        android:id="bg"
+        android:pathData="M 0,0 L 400,0 L 400,400 L 0,400 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="1"/>
+    <path
+        android:id="spiro_outer_s0"
+        android:pathData="M 200,200 L 349.0,200.0 L 345.8,196.7 L 336.3,194.3 L 321.0,193.3 L 300.8,194.5 L 276.7,198.3 L 250.0,204.8 L 222.0,213.9 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="spiro_outer_s1"
+        android:pathData="M 200,200 L 222.0,213.9 L 194.3,225.4 L 168.0,238.7 L 144.6,253.0 L 124.9,267.4 L 109.7,280.8 L 99.6,292.3 L 94.6,300.8 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="spiro_outer_s2"
+        android:pathData="M 200,200 L 94.6,300.8 L 94.6,305.4 L 99.2,305.4 L 107.7,300.4 L 119.2,290.3 L 132.6,275.1 L 147.0,255.4 L 161.3,232.0 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="spiro_outer_s3"
+        android:pathData="M 200,200 L 161.3,232.0 L 174.6,205.7 L 186.1,178.0 L 195.2,150.0 L 201.7,123.3 L 205.5,99.2 L 206.7,79.0 L 205.7,63.7 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="spiro_outer_s4"
+        android:pathData="M 200,200 L 205.7,63.7 L 203.3,54.2 L 200.0,51.0 L 196.7,54.2 L 194.3,63.7 L 193.3,79.0 L 194.5,99.2 L 198.3,123.3 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="spiro_outer_s5"
+        android:pathData="M 200,200 L 198.3,123.3 L 204.8,150.0 L 213.9,178.0 L 225.4,205.7 L 238.7,232.0 L 253.0,255.4 L 267.4,275.1 L 280.8,290.3 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="spiro_outer_s6"
+        android:pathData="M 200,200 L 280.8,290.3 L 292.3,300.4 L 300.8,305.4 L 305.4,305.4 L 305.4,300.8 L 300.4,292.3 L 290.3,280.8 L 275.1,267.4 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="spiro_outer_s7"
+        android:pathData="M 200,200 L 275.1,267.4 L 255.4,253.0 L 232.0,238.7 L 205.7,225.4 L 178.0,213.9 L 150.0,204.8 L 123.3,198.3 L 99.2,194.5 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="spiro_outer_s8"
+        android:pathData="M 200,200 L 99.2,194.5 L 79.0,193.3 L 63.7,194.3 L 54.2,196.7 L 51.0,200.0 L 54.2,203.3 L 63.7,205.7 L 79.0,206.7 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="spiro_outer_s9"
+        android:pathData="M 200,200 L 79.0,206.7 L 99.2,205.5 L 123.3,201.7 L 150.0,195.2 L 178.0,186.1 L 205.7,174.6 L 232.0,161.3 L 255.4,147.0 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="spiro_outer_s10"
+        android:pathData="M 200,200 L 255.4,147.0 L 275.1,132.6 L 290.3,119.2 L 300.4,107.7 L 305.4,99.2 L 305.4,94.6 L 300.8,94.6 L 292.3,99.6 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="spiro_outer_s11"
+        android:pathData="M 200,200 L 292.3,99.6 L 280.8,109.7 L 267.4,124.9 L 253.0,144.6 L 238.7,168.0 L 225.4,194.3 L 213.9,222.0 L 204.8,250.0 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="spiro_outer_s12"
+        android:pathData="M 200,200 L 204.8,250.0 L 198.3,276.7 L 194.5,300.8 L 193.3,321.0 L 194.3,336.3 L 196.7,345.8 L 200.0,349.0 L 203.3,345.8 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="spiro_outer_s13"
+        android:pathData="M 200,200 L 203.3,345.8 L 205.7,336.3 L 206.7,321.0 L 205.5,300.8 L 201.7,276.7 L 195.2,250.0 L 186.1,222.0 L 174.6,194.3 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="spiro_outer_s14"
+        android:pathData="M 200,200 L 174.6,194.3 L 161.3,168.0 L 147.0,144.6 L 132.6,124.9 L 119.2,109.7 L 107.7,99.6 L 99.2,94.6 L 94.6,94.6 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="spiro_outer_s15"
+        android:pathData="M 200,200 L 94.6,94.6 L 94.6,99.2 L 99.6,107.7 L 109.7,119.2 L 124.9,132.6 L 144.6,147.0 L 168.0,161.3 L 194.3,174.6 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="spiro_inner_s0"
+        android:pathData="M 200,200 L 230.0,200.0 L 221.2,221.2 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="spiro_inner_s1"
+        android:pathData="M 200,200 L 221.2,221.2 L 200.0,230.0 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="spiro_inner_s2"
+        android:pathData="M 200,200 L 200.0,230.0 L 178.8,221.2 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="spiro_inner_s3"
+        android:pathData="M 200,200 L 178.8,221.2 L 170.0,200.0 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="spiro_inner_s4"
+        android:pathData="M 200,200 L 170.0,200.0 L 178.8,178.8 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="spiro_inner_s5"
+        android:pathData="M 200,200 L 178.8,178.8 L 200.0,170.0 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="spiro_inner_s6"
+        android:pathData="M 200,200 L 200.0,170.0 L 221.2,178.8 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="spiro_inner_s7"
+        android:pathData="M 200,200 L 221.2,178.8 L 230.0,200.0 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+</vector>

@@ -1,0 +1,62 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="400dp"
+    android:viewportWidth="400"
+    android:viewportHeight="400">
+
+    <path
+        android:id="bg"
+        android:pathData="M 0,0 L 400,0 L 400,400 L 0,400 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="1"/>
+    <path
+        android:id="bird_head"
+        android:pathData="M 170,120 A 30,30 0 1,1 230,120 Q 200,100 170,120 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="bird_eye_l"
+        android:pathData="M 185,120 A 6,6 0 1,1 197,120 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="bird_eye_r"
+        android:pathData="M 203,120 A 6,6 0 1,1 215,120 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="bird_beak"
+        android:pathData="M 195,125 L 205,125 L 200,140 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="bird_body"
+        android:pathData="M 160,150 Q 200,140 240,150 L 220,260 Q 200,280 180,260 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="bird_wing_l"
+        android:pathData="M 165,155 L 113,200 L 175,230 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="bird_wing_r"
+        android:pathData="M 235,155 L 287,200 L 225,230 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="bird_tail"
+        android:pathData="M 190,270 L 180,317 L 220,317 L 210,270 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="bird_foot_l"
+        android:pathData="M 185,265 L 180,285 L 190,285 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="bird_foot_r"
+        android:pathData="M 215,265 L 210,285 L 220,285 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+</vector>

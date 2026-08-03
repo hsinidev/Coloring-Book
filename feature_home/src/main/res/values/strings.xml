@@ -1,0 +1,8 @@
+<resources>
+    <!-- Developer Profile — Hsini Mohamed -->
+    <string name="dev_developer_name">Hsini Mohamed</string>
+    <string name="dev_contact_email">contact@hsini.dev</string>
+    <string name="dev_website">https://hsini.dev</string>
+    <string name="dev_github_url">https://github.com/hsinimohamed</string>
+    <string name="dev_linkedin_url">https://www.linkedin.com/in/hsinimohamed</string>
+</resources>

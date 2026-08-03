@@ -1,0 +1,92 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="400dp"
+    android:viewportWidth="400"
+    android:viewportHeight="400">
+
+    <path
+        android:id="bg"
+        android:pathData="M 0,0 L 400,0 L 400,400 L 0,400 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="1"/>
+    <path
+        android:id="hair_spike_0"
+        android:pathData="M 110.0,200.0 Q 103.3,151.2 96.6,162.4 L 200,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="hair_spike_1"
+        android:pathData="M 96.6,162.4 Q 113.8,122.3 131.1,142.1 L 200,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="hair_spike_2"
+        android:pathData="M 131.1,142.1 Q 138.0,93.4 145.0,104.7 L 200,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="hair_spike_3"
+        android:pathData="M 145.0,104.7 Q 164.7,78.1 184.4,111.4 L 200,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="hair_spike_4"
+        android:pathData="M 184.4,111.4 Q 201.7,71.5 219.1,91.7 L 200,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="hair_spike_5"
+        android:pathData="M 219.1,91.7 Q 232.1,76.9 245.0,122.1 L 200,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="hair_spike_6"
+        android:pathData="M 245.0,122.1 Q 264.6,95.7 284.3,129.3 L 200,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="hair_spike_7"
+        android:pathData="M 284.3,129.3 Q 284.4,119.3 284.6,169.2 L 200,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="hair_spike_8"
+        android:pathData="M 284.6,169.2 Q 297.3,154.6 310.0,200.0 L 200,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="anime_face_l"
+        android:pathData="M 120,160 L 200,248 L 200,140 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="anime_face_r"
+        android:pathData="M 280,160 L 200,248 L 200,140 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="eye_l_out"
+        android:pathData="M 140,170 Q 160,170-21 180,170 Q 160,180 140,170 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="eye_l_pupil"
+        android:pathData="M 152,170 Q 160,170-12.6 168,170 Q 160,175 152,170 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="eye_r_out"
+        android:pathData="M 220,170 Q 240,170-21 260,170 Q 240,180 220,170 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="eye_r_pupil"
+        android:pathData="M 232,170 Q 240,170-12.6 248,170 Q 240,175 232,170 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="mouth"
+        android:pathData="M 185,210 Q 200,210+12 215,210 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+</vector>

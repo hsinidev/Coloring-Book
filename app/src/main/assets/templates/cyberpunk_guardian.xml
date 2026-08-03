@@ -1,0 +1,41 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="400dp"
+    android:viewportWidth="400"
+    android:viewportHeight="400">
+    <!-- Action Panel Border -->
+    <path
+        android:id="border"
+        android:pathData="M 10,10 L 390,10 L 390,390 L 10,390 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="3"/>
+    
+    <!-- Action Line panels -->
+    <path
+        android:id="panel_1"
+        android:pathData="M 10,10 L 200,10 L 10,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="panel_2"
+        android:pathData="M 200,10 L 390,10 L 390,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="panel_3"
+        android:pathData="M 10,200 L 390,200 L 390,390 L 10,390 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    
+    <!-- Hero Face/Helmet Shield -->
+    <path
+        android:id="shield_left"
+        android:pathData="M 100,150 L 200,150 L 200,250 L 100,250 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="shield_right"
+        android:pathData="M 200,150 L 300,150 L 300,250 L 200,250 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+</vector>

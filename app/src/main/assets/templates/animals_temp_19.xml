@@ -1,0 +1,52 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="400dp"
+    android:viewportWidth="400"
+    android:viewportHeight="400">
+
+    <path
+        android:id="bg"
+        android:pathData="M 0,0 L 400,0 L 400,400 L 0,400 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="1"/>
+    <path
+        android:id="crit_body"
+        android:pathData="M 90,230 Q 170,200 240,240 L 220,310 L 110,310 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="crit_neck"
+        android:pathData="M 200,240 L 230,170 Q 230-10,170-48 180,210 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="crit_head"
+        android:pathData="M 210,170 L 255,145 L 230,120 L 190,150 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="crit_ear_l"
+        android:pathData="M 200,135 L 190,58 L 215,125 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="crit_ear_r"
+        android:pathData="M 225,125 L 235,48 L 235,135 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="crit_eye"
+        android:pathData="M 225,145 A 4,4 0 1,1 233,145 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="crit_snout"
+        android:pathData="M 245,150 L 260,160 L 240,165 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="crit_tail"
+        android:pathData="M 90,230 Q 60,210 50,250 Q 80,270 90,230 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+</vector>

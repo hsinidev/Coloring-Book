@@ -1,0 +1,47 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="400dp"
+    android:viewportWidth="400"
+    android:viewportHeight="400">
+
+    <path
+        android:id="bg"
+        android:pathData="M 0,0 L 400,0 L 400,400 L 0,400 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="1"/>
+    <path
+        android:id="sea_body"
+        android:pathData="M 70,200 Q 180,110 320,180 Q 340,190 320,210 Q 180,280 70,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="sea_fin_top"
+        android:pathData="M 180,155 L 170,120 L 210,170 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="sea_fin_bot"
+        android:pathData="M 180,225 L 170,260 L 210,210 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="sea_tail_t"
+        android:pathData="M 75,200 L 40,164 L 55,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="sea_tail_b"
+        android:pathData="M 75,200 L 40,236 L 55,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="sea_eye"
+        android:pathData="M 290,180 A 4,4 0 1,1 298,180 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="sea_mouth"
+        android:pathData="M 310,200 Q 300,208 290,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+</vector>

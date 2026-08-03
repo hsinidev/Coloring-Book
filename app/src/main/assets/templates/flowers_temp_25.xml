@@ -1,0 +1,162 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="400dp"
+    android:viewportWidth="400"
+    android:viewportHeight="400">
+
+    <path
+        android:id="bg"
+        android:pathData="M 0,0 L 400,0 L 400,400 L 0,400 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="1"/>
+    <path
+        android:id="stem"
+        android:pathData="M 195,200 Q 175.0,300 195,400 L 205,400 Q 185.0,300 205,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="leaf_l"
+        android:pathData="M 185.0,300 C 120.0,280 120,330 195,350 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="leaf_r"
+        android:pathData="M 195.0,320 C 260.0,300 280,350 205,370 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="petal_l0_0"
+        android:pathData="M 200,200 Q 255.0,235.0 310.0,200.0 Q 255.0,165.0 200,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="petal_l0_1"
+        android:pathData="M 200,200 Q 206.9,264.8 268.6,286.0 Q 261.7,221.2 200,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="petal_l0_2"
+        android:pathData="M 200,200 Q 153.6,245.8 175.5,307.2 Q 221.9,261.4 200,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="petal_l0_3"
+        android:pathData="M 200,200 Q 135.3,192.3 100.9,247.7 Q 165.6,255.4 200,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="petal_l0_4"
+        android:pathData="M 200,200 Q 165.6,144.6 100.9,152.3 Q 135.3,207.7 200,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="petal_l0_5"
+        android:pathData="M 200,200 Q 221.9,138.6 175.5,92.8 Q 153.6,154.2 200,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="petal_l0_6"
+        android:pathData="M 200,200 Q 261.7,178.8 268.6,114.0 Q 206.9,135.2 200,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="petal_l1_0"
+        android:pathData="M 200,200 Q 227.1,245.2 279.3,238.2 Q 252.2,193.0 200,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="petal_l1_1"
+        android:pathData="M 200,200 Q 181.5,249.3 219.6,285.8 Q 238.1,236.4 200,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="petal_l1_2"
+        android:pathData="M 200,200 Q 149.9,216.3 145.1,268.8 Q 195.2,252.5 200,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="petal_l1_3"
+        android:pathData="M 200,200 Q 156.0,171.0 112.0,200.0 Q 156.0,229.0 200,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="petal_l1_4"
+        android:pathData="M 200,200 Q 195.2,147.5 145.1,131.2 Q 149.9,183.7 200,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="petal_l1_5"
+        android:pathData="M 200,200 Q 238.1,163.6 219.6,114.2 Q 181.5,150.7 200,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="petal_l1_6"
+        android:pathData="M 200,200 Q 252.2,207.0 279.3,161.8 Q 227.1,154.8 200,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="petal_l2_0"
+        android:pathData="M 200,200 Q 202.6,240.1 241.2,251.6 Q 238.6,211.5 200,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="petal_l2_1"
+        android:pathData="M 200,200 Q 170.2,227.1 185.3,264.3 Q 215.1,237.3 200,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="petal_l2_2"
+        android:pathData="M 200,200 Q 160.3,193.6 140.5,228.6 Q 180.2,235.0 200,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="petal_l2_3"
+        android:pathData="M 200,200 Q 180.2,165.0 140.5,171.4 Q 160.3,206.4 200,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="petal_l2_4"
+        android:pathData="M 200,200 Q 215.1,162.7 185.3,135.7 Q 170.2,172.9 200,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="petal_l2_5"
+        android:pathData="M 200,200 Q 238.6,188.5 241.2,148.4 Q 202.6,159.9 200,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="petal_l2_6"
+        android:pathData="M 200,200 Q 233.0,223.0 266.0,200.0 Q 233.0,177.0 200,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="center_core_0"
+        android:pathData="M 200,200 L 218.0,200.0 L 209.0,215.6 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="center_core_1"
+        android:pathData="M 200,200 L 209.0,215.6 L 191.0,215.6 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="center_core_2"
+        android:pathData="M 200,200 L 191.0,215.6 L 182.0,200.0 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="center_core_3"
+        android:pathData="M 200,200 L 182.0,200.0 L 191.0,184.4 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="center_core_4"
+        android:pathData="M 200,200 L 191.0,184.4 L 209.0,184.4 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="center_core_5"
+        android:pathData="M 200,200 L 209.0,184.4 L 218.0,200.0 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+</vector>

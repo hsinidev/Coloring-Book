@@ -1,0 +1,252 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="400dp"
+    android:viewportWidth="400"
+    android:viewportHeight="400">
+
+    <path
+        android:id="bg"
+        android:pathData="M 0,0 L 400,0 L 400,400 L 0,400 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="1"/>
+    <path
+        android:id="stem"
+        android:pathData="M 195,200 Q 215.0,300 195,400 L 205,400 Q 225.0,300 205,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="leaf_l"
+        android:pathData="M 205.0,300 C 140.0,280 120,330 195,350 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="leaf_r"
+        android:pathData="M 215.0,320 C 280.0,300 280,350 205,370 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="petal_l0_0"
+        android:pathData="M 200,200 Q 255.0,235.0 310.0,200.0 Q 255.0,165.0 200,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="petal_l0_1"
+        android:pathData="M 200,200 Q 232.4,256.6 297.4,251.1 Q 265.0,194.6 200,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="petal_l0_2"
+        android:pathData="M 200,200 Q 202.4,265.1 262.5,290.5 Q 260.0,225.4 200,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="petal_l0_3"
+        android:pathData="M 200,200 Q 171.9,258.8 213.3,309.2 Q 241.4,250.4 200,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="petal_l0_4"
+        android:pathData="M 200,200 Q 147.8,239.0 161.0,302.9 Q 213.2,263.8 200,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="petal_l0_5"
+        android:pathData="M 200,200 Q 135.6,210.3 117.7,272.9 Q 182.0,262.7 200,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="petal_l0_6"
+        android:pathData="M 200,200 Q 138.2,179.2 93.2,226.3 Q 155.0,247.1 200,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="petal_l0_7"
+        android:pathData="M 200,200 Q 155.0,152.9 93.2,173.7 Q 138.2,220.8 200,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="petal_l0_8"
+        android:pathData="M 200,200 Q 182.0,137.3 117.7,127.1 Q 135.6,189.7 200,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="petal_l0_9"
+        android:pathData="M 200,200 Q 213.2,136.2 161.0,97.1 Q 147.8,161.0 200,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="petal_l0_10"
+        android:pathData="M 200,200 Q 241.4,149.6 213.3,90.8 Q 171.9,141.2 200,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="petal_l0_11"
+        android:pathData="M 200,200 Q 260.0,174.6 262.5,109.5 Q 202.4,134.9 200,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="petal_l0_12"
+        android:pathData="M 200,200 Q 265.0,205.4 297.4,148.9 Q 232.4,143.4 200,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="petal_l1_0"
+        android:pathData="M 200,200 Q 235.8,238.7 285.4,221.1 Q 249.7,182.4 200,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="petal_l1_1"
+        android:pathData="M 200,200 Q 213.7,250.9 265.9,258.4 Q 252.2,207.5 200,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="petal_l1_2"
+        android:pathData="M 200,200 Q 188.5,251.4 231.2,282.3 Q 242.7,230.9 200,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="petal_l1_3"
+        android:pathData="M 200,200 Q 165.9,240.2 189.4,287.4 Q 223.5,247.2 200,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="petal_l1_4"
+        android:pathData="M 200,200 Q 151.1,219.7 150.0,272.4 Q 198.9,252.7 200,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="petal_l1_5"
+        android:pathData="M 200,200 Q 147.6,194.8 122.1,240.9 Q 174.5,246.1 200,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="petal_l1_6"
+        android:pathData="M 200,200 Q 156.0,171.0 112.0,200.0 Q 156.0,229.0 200,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="petal_l1_7"
+        android:pathData="M 200,200 Q 174.5,153.9 122.1,159.1 Q 147.6,205.2 200,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="petal_l1_8"
+        android:pathData="M 200,200 Q 198.9,147.3 150.0,127.6 Q 151.1,180.3 200,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="petal_l1_9"
+        android:pathData="M 200,200 Q 223.5,152.8 189.4,112.6 Q 165.9,159.8 200,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="petal_l1_10"
+        android:pathData="M 200,200 Q 242.7,169.1 231.2,117.7 Q 188.5,148.6 200,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="petal_l1_11"
+        android:pathData="M 200,200 Q 252.2,192.5 265.9,141.6 Q 213.7,149.1 200,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="petal_l1_12"
+        android:pathData="M 200,200 Q 249.7,217.6 285.4,178.9 Q 235.8,161.3 200,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="petal_l2_0"
+        android:pathData="M 200,200 Q 218.5,235.7 258.4,230.7 Q 239.9,195.0 200,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="petal_l2_1"
+        android:pathData="M 200,200 Q 199.8,240.2 237.5,254.3 Q 237.7,214.1 200,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="petal_l2_2"
+        android:pathData="M 200,200 Q 181.1,235.5 208.0,265.5 Q 226.8,230.0 200,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="petal_l2_3"
+        android:pathData="M 200,200 Q 166.8,222.7 176.6,261.7 Q 209.8,239.0 200,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="petal_l2_4"
+        android:pathData="M 200,200 Q 160.0,204.7 150.6,243.8 Q 190.6,239.1 200,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="petal_l2_5"
+        android:pathData="M 200,200 Q 162.5,185.6 135.9,215.8 Q 173.5,230.2 200,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="petal_l2_6"
+        android:pathData="M 200,200 Q 173.5,169.8 135.9,184.2 Q 162.5,214.4 200,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="petal_l2_7"
+        android:pathData="M 200,200 Q 190.6,160.9 150.6,156.2 Q 160.0,195.3 200,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="petal_l2_8"
+        android:pathData="M 200,200 Q 209.8,161.0 176.6,138.3 Q 166.8,177.3 200,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="petal_l2_9"
+        android:pathData="M 200,200 Q 226.8,170.0 208.0,134.5 Q 181.1,164.5 200,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="petal_l2_10"
+        android:pathData="M 200,200 Q 237.7,185.9 237.5,145.7 Q 199.8,159.8 200,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="petal_l2_11"
+        android:pathData="M 200,200 Q 239.9,205.0 258.4,169.3 Q 218.5,164.3 200,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="petal_l2_12"
+        android:pathData="M 200,200 Q 233.0,223.0 266.0,200.0 Q 233.0,177.0 200,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="center_core_0"
+        android:pathData="M 200,200 L 218.0,200.0 L 209.0,215.6 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="center_core_1"
+        android:pathData="M 200,200 L 209.0,215.6 L 191.0,215.6 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="center_core_2"
+        android:pathData="M 200,200 L 191.0,215.6 L 182.0,200.0 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="center_core_3"
+        android:pathData="M 200,200 L 182.0,200.0 L 191.0,184.4 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="center_core_4"
+        android:pathData="M 200,200 L 191.0,184.4 L 209.0,184.4 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="center_core_5"
+        android:pathData="M 200,200 L 209.0,184.4 L 218.0,200.0 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+</vector>

@@ -1,0 +1,207 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="400dp"
+    android:viewportWidth="400"
+    android:viewportHeight="400">
+
+    <path
+        android:id="bg"
+        android:pathData="M 0,0 L 400,0 L 400,400 L 0,400 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="1"/>
+    <path
+        android:id="shield_r0_s0"
+        android:pathData="M 230.0,200.0 L 263.0,200.0 L 248.3,240.5 L 223.0,219.3 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="shield_r0_s1"
+        android:pathData="M 223.0,219.3 L 248.3,240.5 L 210.9,262.0 L 205.2,229.5 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="shield_r0_s2"
+        android:pathData="M 205.2,229.5 L 210.9,262.0 L 168.5,254.6 L 185.0,226.0 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="shield_r0_s3"
+        android:pathData="M 185.0,226.0 L 168.5,254.6 L 140.8,221.5 L 171.8,210.3 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="shield_r0_s4"
+        android:pathData="M 171.8,210.3 L 140.8,221.5 L 140.8,178.5 L 171.8,189.7 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="shield_r0_s5"
+        android:pathData="M 171.8,189.7 L 140.8,178.5 L 168.5,145.4 L 185.0,174.0 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="shield_r0_s6"
+        android:pathData="M 185.0,174.0 L 168.5,145.4 L 210.9,138.0 L 205.2,170.5 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="shield_r0_s7"
+        android:pathData="M 205.2,170.5 L 210.9,138.0 L 248.3,159.5 L 223.0,180.7 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="shield_r0_s8"
+        android:pathData="M 223.0,180.7 L 248.3,159.5 L 263.0,200.0 L 230.0,200.0 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="shield_r1_s0"
+        android:pathData="M 263.0,200.0 L 296.0,200.0 L 273.5,261.7 L 248.3,240.5 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="shield_r1_s1"
+        android:pathData="M 248.3,240.5 L 273.5,261.7 L 216.7,294.5 L 210.9,262.0 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="shield_r1_s2"
+        android:pathData="M 210.9,262.0 L 216.7,294.5 L 152.0,283.1 L 168.5,254.6 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="shield_r1_s3"
+        android:pathData="M 168.5,254.6 L 152.0,283.1 L 109.8,232.8 L 140.8,221.5 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="shield_r1_s4"
+        android:pathData="M 140.8,221.5 L 109.8,232.8 L 109.8,167.2 L 140.8,178.5 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="shield_r1_s5"
+        android:pathData="M 140.8,178.5 L 109.8,167.2 L 152.0,116.9 L 168.5,145.4 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="shield_r1_s6"
+        android:pathData="M 168.5,145.4 L 152.0,116.9 L 216.7,105.5 L 210.9,138.0 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="shield_r1_s7"
+        android:pathData="M 210.9,138.0 L 216.7,105.5 L 273.5,138.3 L 248.3,159.5 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="shield_r1_s8"
+        android:pathData="M 248.3,159.5 L 273.5,138.3 L 296.0,200.0 L 263.0,200.0 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="shield_r2_s0"
+        android:pathData="M 296.0,200.0 L 329.0,200.0 L 298.8,282.9 L 273.5,261.7 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="shield_r2_s1"
+        android:pathData="M 273.5,261.7 L 298.8,282.9 L 222.4,327.0 L 216.7,294.5 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="shield_r2_s2"
+        android:pathData="M 216.7,294.5 L 222.4,327.0 L 135.5,311.7 L 152.0,283.1 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="shield_r2_s3"
+        android:pathData="M 152.0,283.1 L 135.5,311.7 L 78.8,244.1 L 109.8,232.8 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="shield_r2_s4"
+        android:pathData="M 109.8,232.8 L 78.8,244.1 L 78.8,155.9 L 109.8,167.2 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="shield_r2_s5"
+        android:pathData="M 109.8,167.2 L 78.8,155.9 L 135.5,88.3 L 152.0,116.9 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="shield_r2_s6"
+        android:pathData="M 152.0,116.9 L 135.5,88.3 L 222.4,73.0 L 216.7,105.5 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="shield_r2_s7"
+        android:pathData="M 216.7,105.5 L 222.4,73.0 L 298.8,117.1 L 273.5,138.3 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="shield_r2_s8"
+        android:pathData="M 273.5,138.3 L 298.8,117.1 L 329.0,200.0 L 296.0,200.0 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="star_l_0"
+        android:pathData="M 200,200 L 200.0,175.0 L 205.0,191.3 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="star_r_0"
+        android:pathData="M 200,200 L 221.7,187.5 L 205.0,191.3 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="star_l_1"
+        android:pathData="M 200,200 L 221.7,187.5 L 210.0,200.0 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="star_r_1"
+        android:pathData="M 200,200 L 221.7,212.5 L 210.0,200.0 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="star_l_2"
+        android:pathData="M 200,200 L 221.7,212.5 L 205.0,208.7 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="star_r_2"
+        android:pathData="M 200,200 L 200.0,225.0 L 205.0,208.7 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="star_l_3"
+        android:pathData="M 200,200 L 200.0,225.0 L 195.0,208.7 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="star_r_3"
+        android:pathData="M 200,200 L 178.3,212.5 L 195.0,208.7 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="star_l_4"
+        android:pathData="M 200,200 L 178.3,212.5 L 190.0,200.0 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="star_r_4"
+        android:pathData="M 200,200 L 178.3,187.5 L 190.0,200.0 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="star_l_5"
+        android:pathData="M 200,200 L 178.3,187.5 L 195.0,191.3 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="star_r_5"
+        android:pathData="M 200,200 L 200.0,175.0 L 195.0,191.3 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+</vector>

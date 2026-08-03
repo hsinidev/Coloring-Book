@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ChromaMind App Icon Foreground
+  Mandala-style color petals radiating from center — paint palette / lotus flower motif
+  Designed for Android Adaptive Icon (108dp canvas, safe zone 72dp)
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- === PETAL RING 1 — Outer large petals (7 colors of the spectrum) === -->
+
+    <!-- Red petal (top) -->
+    <path
+        android:fillColor="#FF4D4D"
+        android:pathData="M54,54 C50,40 44,30 54,18 C64,30 58,40 54,54 Z" />
+
+    <!-- Orange petal (top-right) -->
+    <path
+        android:fillColor="#FF8C42"
+        android:pathData="M54,54 C66,46 75,40 84,48 C76,58 65,56 54,54 Z" />
+
+    <!-- Yellow petal (right) -->
+    <path
+        android:fillColor="#FFD166"
+        android:pathData="M54,54 C68,54 78,50 84,60 C74,66 64,62 54,54 Z" />
+
+    <!-- Green petal (bottom-right) -->
+    <path
+        android:fillColor="#06D6A0"
+        android:pathData="M54,54 C62,66 64,77 56,84 C46,78 46,66 54,54 Z" />
+
+    <!-- Teal petal (bottom) -->
+    <path
+        android:fillColor="#00B4D8"
+        android:pathData="M54,54 C50,68 44,78 34,76 C32,64 42,56 54,54 Z" />
+
+    <!-- Blue petal (left) -->
+    <path
+        android:fillColor="#4361EE"
+        android:pathData="M54,54 C40,58 30,54 26,44 C36,38 48,44 54,54 Z" />
+
+    <!-- Purple/Violet petal (top-left) -->
+    <path
+        android:fillColor="#9B5DE5"
+        android:pathData="M54,54 C44,44 38,34 44,24 C56,26 58,40 54,54 Z" />
+
+    <!-- === PETAL RING 2 — Inner petals (slightly smaller, offset 26 deg) === -->
+
+    <!-- Pink accent petal -->
+    <path
+        android:fillColor="#F72585"
+        android:pathData="M54,54 C56,44 62,36 68,36 C70,46 64,52 54,54 Z"
+        android:fillAlpha="0.85"/>
+
+    <!-- Amber accent petal -->
+    <path
+        android:fillColor="#FFB703"
+        android:pathData="M54,54 C64,58 72,64 70,72 C60,72 54,64 54,54 Z"
+        android:fillAlpha="0.85"/>
+
+    <!-- Lime accent petal -->
+    <path
+        android:fillColor="#80B918"
+        android:pathData="M54,54 C50,64 44,72 36,70 C36,60 46,54 54,54 Z"
+        android:fillAlpha="0.85"/>
+
+    <!-- Indigo accent petal -->
+    <path
+        android:fillColor="#480CA8"
+        android:pathData="M54,54 C44,50 36,44 38,34 C48,32 54,44 54,54 Z"
+        android:fillAlpha="0.85"/>
+
+    <!-- === CENTER GLOW CIRCLE === -->
+    <!-- Outer soft glow ring -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.18"
+        android:pathData="M54,54 m-12,0 a12,12 0 1,0 24,0 a12,12 0 1,0 -24,0" />
+
+    <!-- Mid glow -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.45"
+        android:pathData="M54,54 m-8,0 a8,8 0 1,0 16,0 a8,8 0 1,0 -16,0" />
+
+    <!-- Bright center spark -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.92"
+        android:pathData="M54,54 m-4,0 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0" />
+
+    <!-- Pure white core -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,54 m-1.5,0 a1.5,1.5 0 1,0 3,0 a1.5,1.5 0 1,0 -3,0" />
+
+</vector>

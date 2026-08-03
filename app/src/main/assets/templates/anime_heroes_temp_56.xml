@@ -1,0 +1,62 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="400dp"
+    android:viewportWidth="400"
+    android:viewportHeight="400">
+
+    <path
+        android:id="bg"
+        android:pathData="M 0,0 L 400,0 L 400,400 L 0,400 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="1"/>
+    <path
+        android:id="shuriken_blade_l_0"
+        android:pathData="M 200,200 L 230.0,200.0 L 260.0,303.9 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="shuriken_blade_r_0"
+        android:pathData="M 200,200 L 185.0,226.0 L 260.0,303.9 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="shuriken_blade_l_1"
+        android:pathData="M 200,200 L 185.0,226.0 L 80.0,200.0 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="shuriken_blade_r_1"
+        android:pathData="M 200,200 L 185.0,174.0 L 80.0,200.0 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="shuriken_blade_l_2"
+        android:pathData="M 200,200 L 185.0,174.0 L 260.0,96.1 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="shuriken_blade_r_2"
+        android:pathData="M 200,200 L 230.0,200.0 L 260.0,96.1 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="shuriken_core_0"
+        android:pathData="M 200,200 L 215.0,200.0 L 200.0,215.0 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="shuriken_core_1"
+        android:pathData="M 200,200 L 200.0,215.0 L 185.0,200.0 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="shuriken_core_2"
+        android:pathData="M 200,200 L 185.0,200.0 L 200.0,185.0 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="shuriken_core_3"
+        android:pathData="M 200,200 L 200.0,185.0 L 215.0,200.0 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+</vector>

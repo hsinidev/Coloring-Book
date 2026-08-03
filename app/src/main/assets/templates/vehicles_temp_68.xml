@@ -1,0 +1,62 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="400dp"
+    android:viewportWidth="400"
+    android:viewportHeight="400">
+
+    <path
+        android:id="bg"
+        android:pathData="M 0,0 L 400,0 L 400,400 L 0,400 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="1"/>
+    <path
+        android:id="train_track"
+        android:pathData="M 30,290 L 370,290 L 370,295 L 30,295 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="train_boiler"
+        android:pathData="M 130,180 L 270,180 L 270,260 L 130,260 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="train_cab"
+        android:pathData="M 52,140 L 130,140 L 130,260 L 52,260 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="train_cab_window"
+        android:pathData="M 62,155 L 120,155 L 120,200 L 62,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="train_chimney"
+        android:pathData="M 220,180 L 220,155 L 245,155 L 245,180 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="train_cowcatcher"
+        android:pathData="M 270,230 L 310,260 L 270,260 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="train_wheel_0"
+        android:pathData="M 74,270 A 16,16 0 1,1 106,270 A 16,16 0 1,1 74,270 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="train_wheel_1"
+        android:pathData="M 139,270 A 16,16 0 1,1 171,270 A 16,16 0 1,1 139,270 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="train_wheel_2"
+        android:pathData="M 200,270 A 20,20 0 1,1 240,270 A 20,20 0 1,1 200,270 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="train_wheel_3"
+        android:pathData="M 240,270 A 20,20 0 1,1 280,270 A 20,20 0 1,1 240,270 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+</vector>

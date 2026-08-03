@@ -1,0 +1,173 @@
+﻿{
+  "prompt_metadata": {
+    "app_name": "ChromaMind - Infinite Digital Coloring & Mindfulness Book",
+    "tagline": "Unleash creativity. Reduce stress. Master the canvas.",
+    "target_platform": "Android (Kotlin + Jetpack Compose)",
+    "language": "Kotlin",
+    "ui_framework": "Jetpack Compose (Material Design 3)",
+    "architecture_pattern": "MVVM + Clean Architecture + MVI (Model-View-Intent) for Canvas State",
+    "build_system": "Gradle Kotlin DSL (Version Catalogs)",
+    "min_sdk": 26,
+    "target_sdk": 34,
+    "category": "Art / Creativity / Relaxation / Gamified Art",
+    "monetization": "Hybrid: Free (20 starter templates + AdMob) | Premium Pro ($4.99/mo subscription for 1000+ vector patterns, custom gradient tools, and ad-free experience)"
+  },
+  "agent_instructions": {
+    "role": "You are a Principal Android Graphics Engineer and Lead Mobile UI Architect. Your goal is to build a high-performance, responsive digital coloring application called ChromaMind. The application must feature high-fidelity graphics handling, instantaneous flood-fill operations, ultra-smooth multitouch navigation (pan, pinch-to-zoom), and premium user interface elements.",
+    "design_philosophy": "Fluidity is the core feature. Tap-to-color latency must feel non-existent (<16ms). The user interface must be modern, minimal, and calming, allowing the art to take center stage. Respect system themes (dynamic light/dark modes) with high-contrast active-layer indicators.",
+    "code_standards": [
+      "Strict separation of concerns: Clean Architecture (Domain, Data, Presentation layers) with Domain-Driven Design (DDD) principles for core business logic.",
+      "100% Jetpack Compose for the declarative UI layer utilizing Material 3 components.",
+      "Custom Jetpack Compose Canvas rendering combined with low-level Android path-intersection algorithms or optimized bitmap flood-fill algorithms.",
+      "Dagger Hilt for dependency injection, featuring scoped component configurations.",
+      "Room Database to cache high-resolution canvas state, local history, undo/redo logs, bookmarks, and customized user palettes.",
+      "WorkManager for background vector-to-PNG exports and automated catalog updates via cloud sync.",
+      "Google Play Billing Library 6.x to manage the Pro Premium Subscription layer safely."
+    ]
+  },
+  "product_specification": {
+    "art_styles_and_categories": {
+      "animals": {
+        "description": "High-detail wild and domestic fauna.",
+        "examples": [
+          "Intricate mandala lions",
+          "Realistic geometric wolves",
+          "Cosmic whales",
+          "Zen cats and forest deer"
+        ]
+      },
+      "heroes": {
+        "description": "Dynamic action poses, comic-book-style line art, and dramatic lighting panels.",
+        "examples": [
+          "Cyberpunk guardians",
+          "Action-packed vigilantes",
+          "Fantasy knights",
+          "Sci-fi mechas"
+        ]
+      },
+      "anime_heroes": {
+        "description": "Stylized Japanese pop-culture art, big-eye aesthetics, and expressive hair flows.",
+        "examples": [
+          "Shonen elemental warriors",
+          "Chibi-style cute sorcerers",
+          "Cyber-mecha pilots",
+          "Retro 90s anime heroines"
+        ]
+      },
+      "cars": {
+        "description": "High-precision mechanical vectors with clear reflection surfaces and aerodynamic lines.",
+        "examples": [
+          "Modern hypercars",
+          "Retro vintage convertibles",
+          "Cyber-punk tuner cars",
+          "Off-road rally monsters"
+        ]
+      },
+      "flowers": {
+        "description": "Delicate botanical designs, repeating floral patterns, and complex floral arrangements.",
+        "examples": [
+          "Symmetrical rose mandalas",
+          "Wild forest botanicals",
+          "Japanese cherry blossoms",
+          "Exotic tropical orchid panels"
+        ]
+      },
+      "mandalas_and_abstract": {
+        "description": "Symmetrical shapes and repetitive geometry ideal for pure relaxation.",
+        "examples": [
+          "Sacred geometry",
+          "Tibetan cosmic mandalas",
+          "Art Deco vectors",
+          "Flowing psychadelic patterns"
+        ]
+      },
+      "landscapes_and_fantasy": {
+        "description": "Immersive environments and mystical themes.",
+        "examples": [
+          "Enchanted forest glades",
+          "Floating sky islands",
+          "Steam-punk cities",
+          "Japanese mountain temples"
+        ]
+      }
+    },
+    "core_mechanics": {
+      "tap_to_fill_engine": "Choose between Vector Path Hit-Testing (detecting vector elements and updating path colors dynamically) or Canvas Bitmap-Level Flood-Fill (using a fast Queue-Based Flood-Fill algorithm written in C++ via JNI or highly optimized Kotlin for immediate colorization).",
+      "canvas_transformations": "Robust, jitter-free multi-touch listener tracking. Pinch-to-zoom up to 800%, two-finger pan with kinetic decay physics, and auto-centering on double-tap.",
+      "undo_redo_subsystem": "In-memory state manager storing up to 50 operations in a double-ended queue. Persistent recovery state stored in Room to prevent progress loss if the app process is reclaimed by Android.",
+      "creative_toolkit": {
+        "infinite_color_picker": "Circular HSL hue slider with brightness/saturation selection matrix.",
+        "custom_palettes": "Preset themed palettes (Sunset, Neon, Pastel, Forest) with user capability to extract and save 8-color palettes from imported gallery photos.",
+        "color_effects": "Ability to apply flat solid colors, linear/radial gradients, or textured shading overlays (e.g., glitter, metallic, paper texture) to active layers.",
+        "eyedropper_tool": "Long-press on any canvas element to activate a magnifying glass lens and sample the pixel color."
+      },
+      "mindfulness_audio_system": "Integrate a background ambient noise generator using androidx.media3-exoplayer. Users can toggle and mix loopable soundscapes including: Soft Rain, Lo-Fi Chill Beats, Tibetan Singing Bowls, Forest Breeze, and White/Pink Noise."
+    }
+  },
+  "technical_specification": {
+    "module_architecture": {
+      "app": "Application initialization, Hilt module bindings, entry point configurations.",
+      "core_ui": "Design tokens (Typography, Colors, Shapes), shared Compose modifiers, custom interactive Canvas views.",
+      "feature_home": "Categorized catalog, user-saved progress shelf, discovery search, daily featured template.",
+      "feature_canvas": "Interactive drawing state machine, multi-touch processor, palette manager, undo/redo engine.",
+      "feature_ambient": "Audio playback service, exoplayer audio mixing, media session integrations.",
+      "feature_pro": "Google Play Billing flows, subscription lock guards, paywall screens.",
+      "core_data": "Room databases, image caching, local file export systems, billing APIs, and remote vector assets fetching."
+    },
+    "state_management_details": {
+      "canvas_state_machine": {
+        "state_model": "data class CanvasState(val templateId: String, val zoom: Float, val offset: Offset, val coloredPaths: Map<String, Int>, val selectedColor: Int, val isPro: Boolean)",
+        "action_events": "sealed interface CanvasIntent { data class SelectColor(val color: Int) : CanvasIntent; data class FillPath(val pathId: String) : CanvasIntent; data class ZoomPan(val scale: Float, val offset: Offset) : CanvasIntent; object Undo : CanvasIntent; object Redo : CanvasIntent }"
+      }
+    },
+    "core_dependencies": {
+      "jetpack_compose": "androidx.compose.ui:ui:1.6.x (including foundation, material3, and constraintlayout-compose)",
+      "database_orm": "androidx.room:room-runtime:2.6.x & room-compiler (using room-ktx Coroutines support)",
+      "dependency_injection": "com.google.dagger:hilt-android:2.51 & hilt-navigation-compose",
+      "asynchronous_runtime": "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.x",
+      "audio_framework": "androidx.media3:media3-exoplayer:1.3.x & media3-session",
+      "vector_handling": "com.caverock:androidsvg:1.4 (or custom direct Vector-to-Path parser for exact path bounds)",
+      "monetization": "com.android.billingclient:billing-ktx:6.2.0 & com.google.android.gms:play-services-ads:23.0.0"
+    },
+    "performance_milestones": {
+      "tap_latency": "< 16 milliseconds per fill operation.",
+      "fps_target": "Consistent 60/120 FPS during heavy multi-touch canvas navigation (zooming/panning).",
+      "memory_footprint": "Max 150MB heap allocation on low-end devices by employing pooled drawables and on-demand bitmap scaling.",
+      "vector_parsing": "Less than 200ms parsing speed for complex 5000+ node SVG/VectorDrawables."
+    }
+  },
+  "execution_roadmap": [
+    {
+      "phase_1": "Project Initialization",
+      "description": "Establish a multi-module Clean Architecture codebase using Gradle Version Catalogs. Bind Hilt modules, set up the navigation graph using Type-Safe Compose Navigation, configure Room databases, and structure the domain entities."
+    },
+    {
+      "phase_2": "Engine Development: Vector Parsing & Rendering",
+      "description": "Build an SVG-to-Path parser. Parse XML/SVG vectors into interactively fillable Android `Path` instances mapped to unique IDs. Write a canvas container to draw these paths scaled to the device screen."
+    },
+    {
+      "phase_3": "Engine Development: Multi-touch & Interactive Gestures",
+      "description": "Implement gesture-handling on the Jetpack Compose Canvas using `pointerInput` and `detectTransformGestures`. Build smooth limits for panning bounds, minimum/maximum zoom levels (0.5x to 8.0x), and inertia-based pan friction."
+    },
+    {
+      "phase_4": "The Interactive Coloring & Undo State Machine",
+      "description": "Implement the Hit-Detection mechanism: check if a touch coordinate falls within a parsed path's boundary utilizing `android.graphics.Region`. Update the path's color in the MVI state tree on a validated tap, and feed the state history queue (Undo/Redo stack)."
+    },
+    {
+      "phase_5": "The Catalog & Art Styles UI Screen",
+      "description": "Develop the home screen containing category-based tabs: Animals, Heroes, Anime Heroes, Cars, Flowers, Mandalas, and Landscapes. Implement smooth loading of thumbnail vectors using modern cache invalidation schemas."
+    },
+    {
+      "phase_6": "Mindfulness Ambient Sound Integration",
+      "description": "Build a background Foreground Service using androidx.media3-exoplayer to stream or locally play multi-loopable soundscapes. Create an overlay sound mixer within the toolbar so users can balance the volume of Rain, Lo-Fi, and Wind."
+    },
+    {
+      "phase_7": "Production Export Engine & Export Utilities",
+      "description": "Construct an off-screen renderer that takes the current map of filled path coordinates and rasterizes them into a high-resolution 300 DPI PNG, JPG, or PDF file, allowing seamless saving to the Android MediaStore Gallery."
+    },
+    {
+      "phase_8": "Google Play Billing & AdMob Integration",
+      "description": "Integrate the Play Billing client to fetch real-time pricing and handle subscription states. Block advanced categories (e.g., Anime Heroes, Cars, high-complexity Mandalas) with a subscription paywall, and render subtle non-intrusive Banner/Interstitial AdMob ads for free-tier users."
+    }
+  ]
+}

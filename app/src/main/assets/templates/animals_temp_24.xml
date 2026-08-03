@@ -1,0 +1,67 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="400dp"
+    android:viewportWidth="400"
+    android:viewportHeight="400">
+
+    <path
+        android:id="bg"
+        android:pathData="M 0,0 L 400,0 L 400,400 L 0,400 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="1"/>
+    <path
+        android:id="mam_body"
+        android:pathData="M 100,200 Q 200,125 300,200 L 290,280 L 110,280 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="mam_head"
+        android:pathData="M 160,150 A 40,40 0 1,1 240,150 A 40,40 0 1,1 160,150 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="mam_ear_l"
+        android:pathData="M 160,120 A 45,45 0 1,0 130,150 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="mam_ear_r"
+        android:pathData="M 240,120 A 45,45 0 1,1 270,150 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="mam_snout"
+        android:pathData="M 180,165 L 220,165 L 200,185 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="mam_eye_l"
+        android:pathData="M 175,140 A 5,5 0 1,1 185,140 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="mam_eye_r"
+        android:pathData="M 215,140 A 5,5 0 1,1 225,140 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="mam_leg_fl"
+        android:pathData="M 130,280 L 150,280 L 150,340 L 130,340 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="mam_leg_fr"
+        android:pathData="M 170,280 L 190,280 L 190,340 L 170,340 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="mam_leg_bl"
+        android:pathData="M 210,280 L 230,280 L 230,340 L 210,340 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="mam_leg_br"
+        android:pathData="M 250,280 L 270,280 L 270,340 L 250,340 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+</vector>

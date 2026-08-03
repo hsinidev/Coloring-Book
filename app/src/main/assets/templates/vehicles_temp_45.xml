@@ -1,0 +1,72 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="400dp"
+    android:viewportWidth="400"
+    android:viewportHeight="400">
+
+    <path
+        android:id="bg"
+        android:pathData="M 0,0 L 400,0 L 400,400 L 0,400 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="1"/>
+    <path
+        android:id="car_roof"
+        android:pathData="M 120,118 L 240,118 L 270,170 L 90,170 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="car_window_l"
+        android:pathData="M 130,123 L 180,123 L 180,165 L 105,165 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="car_window_r"
+        android:pathData="M 190,123 L 230,123 L 255,165 L 190,165 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="car_body_main"
+        android:pathData="M 60,170 L 310,170 L 320,230 L 50,230 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="car_hood"
+        android:pathData="M 270,170 L 335,185 L 335,210 L 270,210 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="car_trunk"
+        android:pathData="M 90,170 L 55,180 L 55,210 L 90,210 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="car_bumper_front"
+        android:pathData="M 335,210 L 350,235 L 340,245 L 270,245 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="car_bumper_rear"
+        android:pathData="M 55,210 L 40,235 L 50,245 L 90,245 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="car_wheel_0"
+        android:pathData="M 79,235 A 21,21 0 1,1 121,235 A 21,21 0 1,1 79,235 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="car_hub_0"
+        android:pathData="M 89.5,235 A 10.5,10.5 0 1,1 110.5,235 A 10.5,10.5 0 1,1 89.5,235 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="car_wheel_1"
+        android:pathData="M 249,235 A 21,21 0 1,1 291,235 A 21,21 0 1,1 249,235 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="car_hub_1"
+        android:pathData="M 259.5,235 A 10.5,10.5 0 1,1 280.5,235 A 10.5,10.5 0 1,1 259.5,235 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+</vector>

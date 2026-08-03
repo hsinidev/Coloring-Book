@@ -1,0 +1,97 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="400dp"
+    android:viewportWidth="400"
+    android:viewportHeight="400">
+
+    <path
+        android:id="bg"
+        android:pathData="M 0,0 L 400,0 L 400,400 L 0,400 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="1"/>
+    <path
+        android:id="blade_l"
+        android:pathData="M 200,60 L 185,260 L 200,260 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="blade_r"
+        android:pathData="M 200,60 L 215,260 L 200,260 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="guard_l"
+        android:pathData="M 152,245 L 200,260 L 200,275 L 162,275 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="guard_r"
+        android:pathData="M 248,245 L 200,260 L 200,275 L 238,275 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="handle_l"
+        android:pathData="M 194,275 L 200,275 L 200,340 L 195,340 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="handle_r"
+        android:pathData="M 206,275 L 200,275 L 200,340 L 205,340 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="pommel"
+        android:pathData="M 185,340 L 215,340 L 200,360 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="wing_l_0"
+        android:pathData="M 170,90 L 80,110 L 160,130 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="wing_r_0"
+        android:pathData="M 230,90 L 320,110 L 240,130 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="wing_l_1"
+        android:pathData="M 170,115 L 70,135 L 160,155 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="wing_r_1"
+        android:pathData="M 230,115 L 330,135 L 240,155 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="wing_l_2"
+        android:pathData="M 170,140 L 60,160 L 160,180 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="wing_r_2"
+        android:pathData="M 230,140 L 340,160 L 240,180 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="wing_l_3"
+        android:pathData="M 170,165 L 50,185 L 160,205 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="wing_r_3"
+        android:pathData="M 230,165 L 350,185 L 240,205 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="wing_l_4"
+        android:pathData="M 170,190 L 40,210 L 160,230 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="wing_r_4"
+        android:pathData="M 230,190 L 360,210 L 240,230 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+</vector>

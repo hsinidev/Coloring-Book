@@ -1,0 +1,67 @@
+<resources>
+    <!-- App Identity -->
+    <string name="app_name">Coloring Pro</string>
+    <string name="app_tagline">Unleash creativity. Reduce stress. Master the canvas.</string>
+
+    <!-- Developer / About Info — Hsini Mohamed -->
+    <string name="dev_developer_name">Hsini Mohamed</string>
+    <string name="dev_brand_name">Hsini Mohamed</string>
+    <string name="dev_contact_email">contact@hsini.dev</string>
+    <string name="dev_website">https://hsini.dev</string>
+    <string name="dev_github_url">https://github.com/hsinimohamed</string>
+    <string name="dev_privacy_policy_url">https://hsini.dev/privacy</string>
+    <string name="dev_terms_url">https://hsini.dev/terms</string>
+    <string name="dev_app_package">com.example.coloringbook</string>
+
+    <!-- Settings screen labels -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_about">About Coloring Pro</string>
+    <string name="settings_version">Version %1$s (%2$d)</string>
+    <string name="settings_developer">Developer</string>
+    <string name="settings_contact">Contact Support</string>
+    <string name="settings_privacy">Privacy Policy</string>
+    <string name="settings_terms">Terms of Service</string>
+    <string name="settings_rate_app">Rate on Play Store</string>
+    <string name="settings_share_app">Share App</string>
+    <string name="settings_open_source">Open Source Licenses</string>
+    <string name="settings_github">GitHub</string>
+    <string name="settings_website">Website</string>
+    <string name="settings_linkedin">LinkedIn</string>
+
+    <!-- Pro / Billing -->
+    <string name="pro_title">Coloring Pro — Unlimited</string>
+    <string name="pro_price">$4.99 / month</string>
+    <string name="pro_description">Access 1000+ premium patterns, gradient tools, textures, and go completely ad-free.</string>
+    <string name="pro_cta">Unlock Pro</string>
+    <string name="pro_restore">Restore Purchase</string>
+
+    <!-- Ambient sounds -->
+    <string name="ambient_rain">Rain</string>
+    <string name="ambient_lofi">Lo-Fi Music</string>
+    <string name="ambient_bowls">Singing Bowls</string>
+    <string name="ambient_breeze">Forest Breeze</string>
+    <string name="ambient_noise">Pink Noise</string>
+
+    <!-- Canvas toolbar -->
+    <string name="tool_fill">Fill</string>
+    <string name="tool_gradient_linear">Linear Gradient</string>
+    <string name="tool_gradient_radial">Radial Gradient</string>
+    <string name="tool_texture">Texture</string>
+    <string name="tool_eyedropper">Eyedropper</string>
+    <string name="tool_undo">Undo</string>
+    <string name="tool_redo">Redo</string>
+    <string name="tool_export">Export</string>
+
+    <!-- Export -->
+    <string name="export_png">Save as PNG</string>
+    <string name="export_pdf">Save as PDF</string>
+    <string name="export_success">Saved to Gallery ✓</string>
+    <string name="export_error">Export failed. Please try again.</string>
+
+    <!-- Errors / Generic -->
+    <string name="error_generic">Something went wrong. Please try again.</string>
+    <string name="error_no_internet">No internet connection.</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="done">Done</string>
+</resources>

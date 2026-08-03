@@ -1,0 +1,47 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="400dp"
+    android:viewportWidth="400"
+    android:viewportHeight="400">
+
+    <path
+        android:id="bg"
+        android:pathData="M 0,0 L 400,0 L 400,400 L 0,400 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="1"/>
+    <path
+        android:id="truck_cargo"
+        android:pathData="M 50,152 L 240,152 L 240,260 L 50,260 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="truck_cabin"
+        android:pathData="M 240,160 L 323,160 L 338,210 L 338,260 L 240,260 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="truck_window"
+        android:pathData="M 250,170 L 318,170 L 328,210 L 250,210 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="truck_bumper"
+        android:pathData="M 338,250 L 340,250 L 340,265 L 338,265 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="truck_wheel_0"
+        android:pathData="M 72,265 A 18,18 0 1,1 108,265 A 18,18 0 1,1 72,265 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="truck_wheel_1"
+        android:pathData="M 142,265 A 18,18 0 1,1 178,265 A 18,18 0 1,1 142,265 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="truck_wheel_2"
+        android:pathData="M 272,265 A 18,18 0 1,1 308,265 A 18,18 0 1,1 272,265 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+</vector>

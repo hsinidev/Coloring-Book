@@ -1,0 +1,57 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="400dp"
+    android:viewportWidth="400"
+    android:viewportHeight="400">
+
+    <path
+        android:id="bg"
+        android:pathData="M 0,0 L 400,0 L 400,400 L 0,400 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="1"/>
+    <path
+        android:id="plane_body"
+        android:pathData="M 50,200 Q 200,170 320,200 Q 200,230 50,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="plane_cockpit"
+        android:pathData="M 250,185 Q 280,185 295,200 L 250,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="plane_wing_top"
+        android:pathData="M 160,185.0 L 140,94 L 190,94 L 210,185.0 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="plane_wing_bot"
+        android:pathData="M 160,215.0 L 140,306 L 190,306 L 210,215.0 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="plane_tail_fin"
+        android:pathData="M 80,195 L 40,145 L 60,145 L 95,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="plane_tail_stab"
+        android:pathData="M 70,200 L 50,225 L 65,225 L 85,200 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="plane_prop_center"
+        android:pathData="M 320,190 A 10,10 0 1,1 320,210 A 10,10 0 1,1 320,190 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="plane_prop_blade1"
+        android:pathData="M 325,190 L 325,140 L 330,140 L 330,190 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="plane_prop_blade2"
+        android:pathData="M 325,210 L 325,260 L 330,260 L 330,210 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+</vector>

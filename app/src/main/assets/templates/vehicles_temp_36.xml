@@ -1,0 +1,57 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="400dp"
+    android:viewportWidth="400"
+    android:viewportHeight="400">
+
+    <path
+        android:id="bg"
+        android:pathData="M 0,0 L 400,0 L 400,400 L 0,400 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="1"/>
+    <path
+        android:id="motor_wheel_back"
+        android:pathData="M 55,260 A 25,25 0 1,1 105,260 A 25,25 0 1,1 55,260 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="motor_wheel_front"
+        android:pathData="M 275,260 A 25,25 0 1,1 325,260 A 25,25 0 1,1 275,260 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="motor_frame"
+        android:pathData="M 80,260 L 150,260 L 220,180 L 140,180 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="motor_fork"
+        android:pathData="M 300,260 L 250,100 L 240,100 L 285,260 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="motor_handlebars"
+        android:pathData="M 250,100 L 210,90 L 210,85 L 255,100 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="motor_engine"
+        android:pathData="M 130,220 L 190,220 L 190,260 L 130,260 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="motor_tank"
+        android:pathData="M 160,170 L 230,170 L 210,210 L 150,210 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="motor_seat"
+        android:pathData="M 90,190 L 136,190 L 136,210 L 90,210 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="motor_exhaust"
+        android:pathData="M 90,270 L 180,270 L 190,260 L 100,260 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+</vector>

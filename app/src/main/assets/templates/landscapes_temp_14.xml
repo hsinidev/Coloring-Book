@@ -1,0 +1,187 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="400dp"
+    android:viewportWidth="400"
+    android:viewportHeight="400">
+
+    <path
+        android:id="bg"
+        android:pathData="M 0,0 L 400,0 L 400,400 L 0,400 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="1"/>
+    <path
+        android:id="sky_ray_0"
+        android:pathData="M 233.0,112.0 L 400.0,112.0 L 400.0,240.0 L 223.3,135.3 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="sky_ray_1"
+        android:pathData="M 223.3,135.3 L 400.0,240.0 L 200.0,240.0 L 200.0,145.0 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="sky_ray_2"
+        android:pathData="M 200.0,145.0 L 200.0,240.0 L 0.0,240.0 L 176.7,135.3 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="sky_ray_3"
+        android:pathData="M 176.7,135.3 L 0.0,240.0 L 0.0,112.0 L 167.0,112.0 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="sky_ray_4"
+        android:pathData="M 167.0,112.0 L 0.0,112.0 L 0.0,0.0 L 176.7,88.7 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="sky_ray_5"
+        android:pathData="M 176.7,88.7 L 0.0,0.0 L 200.0,0.0 L 200.0,79.0 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="sky_ray_6"
+        android:pathData="M 200.0,79.0 L 200.0,0.0 L 400.0,0.0 L 223.3,88.7 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="sky_ray_7"
+        android:pathData="M 223.3,88.7 L 400.0,0.0 L 400.0,112.0 L 233.0,112.0 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="sun_disk"
+        android:pathData="M 167,112 A 33,33 0 1,1 233,112 A 33,33 0 1,1 167,112 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="mountain_0_left"
+        android:pathData="M 56.0,134.0 L -34.0,240 L 56.0,240 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="mountain_0_right"
+        android:pathData="M 56.0,134.0 L 146.0,240 L 56.0,240 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="mountain_1_left"
+        android:pathData="M 136.0,159.0 L 46.0,240 L 136.0,240 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="mountain_1_right"
+        android:pathData="M 136.0,159.0 L 226.0,240 L 136.0,240 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="mountain_2_left"
+        android:pathData="M 216.0,134.0 L 126.0,240 L 216.0,240 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="mountain_2_right"
+        android:pathData="M 216.0,134.0 L 306.0,240 L 216.0,240 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="mountain_3_left"
+        android:pathData="M 296.0,159.0 L 206.0,240 L 296.0,240 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="mountain_3_right"
+        android:pathData="M 296.0,159.0 L 386.0,240 L 296.0,240 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="mountain_4_left"
+        android:pathData="M 376.0,134.0 L 286.0,240 L 376.0,240 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="mountain_4_right"
+        android:pathData="M 376.0,134.0 L 466.0,240 L 376.0,240 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="water_0_0"
+        android:pathData="M 0.0,240.0 Q 50.0,228.0 100.0,240.0 L 100.0,280.0 Q 50.0,268.0 0.0,280.0 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="water_0_1"
+        android:pathData="M 100.0,240.0 Q 150.0,228.0 200.0,240.0 L 200.0,280.0 Q 150.0,268.0 100.0,280.0 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="water_0_2"
+        android:pathData="M 200.0,240.0 Q 250.0,228.0 300.0,240.0 L 300.0,280.0 Q 250.0,268.0 200.0,280.0 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="water_0_3"
+        android:pathData="M 300.0,240.0 Q 350.0,228.0 400.0,240.0 L 400.0,280.0 Q 350.0,268.0 300.0,280.0 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="water_1_0"
+        android:pathData="M 0.0,280.0 Q 50.0,268.0 100.0,280.0 L 100.0,320.0 Q 50.0,308.0 0.0,320.0 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="water_1_1"
+        android:pathData="M 100.0,280.0 Q 150.0,268.0 200.0,280.0 L 200.0,320.0 Q 150.0,308.0 100.0,320.0 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="water_1_2"
+        android:pathData="M 200.0,280.0 Q 250.0,268.0 300.0,280.0 L 300.0,320.0 Q 250.0,308.0 200.0,320.0 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="water_1_3"
+        android:pathData="M 300.0,280.0 Q 350.0,268.0 400.0,280.0 L 400.0,320.0 Q 350.0,308.0 300.0,320.0 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="water_2_0"
+        android:pathData="M 0.0,320.0 Q 50.0,308.0 100.0,320.0 L 100.0,360.0 Q 50.0,348.0 0.0,360.0 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="water_2_1"
+        android:pathData="M 100.0,320.0 Q 150.0,308.0 200.0,320.0 L 200.0,360.0 Q 150.0,348.0 100.0,360.0 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="water_2_2"
+        android:pathData="M 200.0,320.0 Q 250.0,308.0 300.0,320.0 L 300.0,360.0 Q 250.0,348.0 200.0,360.0 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="water_2_3"
+        android:pathData="M 300.0,320.0 Q 350.0,308.0 400.0,320.0 L 400.0,360.0 Q 350.0,348.0 300.0,360.0 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="water_3_0"
+        android:pathData="M 0.0,360.0 Q 50.0,348.0 100.0,360.0 L 100.0,400.0 Q 50.0,388.0 0.0,400.0 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="water_3_1"
+        android:pathData="M 100.0,360.0 Q 150.0,348.0 200.0,360.0 L 200.0,400.0 Q 150.0,388.0 100.0,400.0 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="water_3_2"
+        android:pathData="M 200.0,360.0 Q 250.0,348.0 300.0,360.0 L 300.0,400.0 Q 250.0,388.0 200.0,400.0 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+    <path
+        android:id="water_3_3"
+        android:pathData="M 300.0,360.0 Q 350.0,348.0 400.0,360.0 L 400.0,400.0 Q 350.0,388.0 300.0,400.0 Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"/>
+</vector>
