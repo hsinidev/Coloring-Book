@@ -6,7 +6,33 @@
 
 ---
 
-## 🚀 Features
+## 📖 How It Works
+
+This application is built following **Clean Architecture**, **MVVM / MVI pattern**, and **Offline-First** principles.
+
+### Architecture & System Modules
+- **`:app` Module**: Application initialization, Hilt module bindings, entry point configurations.
+- **`:core_ui` Module**: Design tokens (Typography, Colors, Shapes), shared Compose modifiers, custom interactive Canvas views.
+- **`:feature_home` Module**: Categorized catalog, user-saved progress shelf, discovery search, daily featured template.
+- **`:feature_canvas` Module**: Interactive drawing state machine, multi-touch processor, palette manager, undo/redo engine.
+- **`:feature_ambient` Module**: Audio playback service, exoplayer audio mixing, media session integrations.
+- **`:feature_pro` Module**: Google Play Billing flows, subscription lock guards, paywall screens.
+- **`:core_data` Module**: Room databases, image caching, local file export systems, billing APIs, and remote vector assets fetching.
+
+### Required Android Permissions
+- Standard Android Internet & Storage permissions
+
+---
+
+## 📱 How to Use
+
+### 1. Creative Toolkit
+
+
+
+---
+
+## 🚀 Key Features
 
 - **Creative Toolkit**: 
 
@@ -16,7 +42,7 @@
 
 - **Language**: Kotlin
 - **UI Framework**: Jetpack Compose (Material Design 3)
-- **Architecture**: MVVM + Clean Architecture
+- **Architecture**: Clean Architecture + MVVM / MVI
 - **Local Storage**: Room Database & DataStore
 - **Async Operations**: Kotlin Coroutines & StateFlow
 - **Build System**: Gradle Kotlin DSL
