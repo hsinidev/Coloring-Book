@@ -1,18 +1,22 @@
 <div align="center">
-# 🚀 Coloring Book
-### *Production-Ready Native Android Application built with Android Jetpack Compose*
 
-<p align="center">
-  [![Architect](https://img.shields.io/badge/Architect-Hsini%20Mohamed-0055ff?style=for-the-badge&logo=github&logoColor=white)](https://hsini.dev)
-  [![Portfolio](https://img.shields.io/badge/Portfolio-hsini.dev-00c853?style=for-the-badge&logo=google-chrome&logoColor=white)](https://hsini.dev)
-  [![Language](https://img.shields.io/badge/Language-Kotlin-f59e0b?style=for-the-badge)](https://github.com/hsinidev)
-  [![Framework](https://img.shields.io/badge/Framework-Android%20Jetpack%20Compose-6366f1?style=for-the-badge)](https://github.com/hsinidev)
-  [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
-</p>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=180&section=header&text=Coloring%20Book&fontSize=42&fontColor=fff&animation=fadeIn&fontAlignY=38" width="100%" style="max-width: 100%; border-radius: 12px; margin-bottom: 20px;" alt="Coloring Book Header Banner" />
+
+  <h1>🚀 Coloring Book</h1>
+  <p><em>Production-Ready Native Android Application built with Android Jetpack Compose</em></p>
+
+  <p align="center">
+    <a href="https://hsini.dev"><img src="https://img.shields.io/badge/Architect-Hsini%20Mohamed-0055ff?style=for-the-badge&logo=github&logoColor=white" alt="Architect: Hsini Mohamed" /></a>
+    <a href="https://hsini.dev"><img src="https://img.shields.io/badge/Portfolio-hsini.dev-00c853?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio: hsini.dev" /></a>
+    <a href="https://github.com/hsinidev"><img src="https://img.shields.io/badge/Language-Kotlin-A97BFF?style=for-the-badge" alt="Language: Kotlin" /></a>
+    <a href="https://github.com/hsinidev"><img src="https://img.shields.io/badge/Framework-Android%20Jetpack%20Compose-6366f1?style=for-the-badge" alt="Framework: Android Jetpack Compose" /></a>
+    <a href="https://github.com/hsinidev/Coloring-Book"><img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License: MIT" /></a>
+  </p>
 
 </div>
 
 ---
+
 ## 🌟 Executive Overview
 
 **Coloring Book** is a high-performance, native Android application engineered with **Android Jetpack Compose** for maximum responsiveness, fluid motion, and robust state persistence.
@@ -25,6 +29,7 @@
 - **Battery & Memory Optimized**: Minimal background footprint and instantaneous startup.
 
 ---
+
 ## 🏗️ Architecture & Technology Stack
 
 - **Primary Language**: `Kotlin`
@@ -32,91 +37,6 @@
 - **Design Pattern**: Modular Clean Architecture / Domain-Driven Design
 - **License**: MIT Open Source Attribution
 
-## 📖 Deep-Dive Technical Documentation
-
-# ChromaMind - Infinite Digital Coloring & Mindfulness Book
-
-> Unleash creativity. Reduce stress. Master the canvas.
-
-**Art / Creativity / Relaxation / Gamified Art** built with Kotlin and modern Android development standards.
-
----
-
-## 📖 How It Works
-
-This application is built following **Clean Architecture**, **MVVM / MVI pattern**, and **Offline-First** principles.
-
-### Architecture & System Modules
-- **`:app` Module**: Application initialization, Hilt module bindings, entry point configurations.
-- **`:core_ui` Module**: Design tokens (Typography, Colors, Shapes), shared Compose modifiers, custom interactive Canvas views.
-- **`:feature_home` Module**: Categorized catalog, user-saved progress shelf, discovery search, daily featured template.
-- **`:feature_canvas` Module**: Interactive drawing state machine, multi-touch processor, palette manager, undo/redo engine.
-- **`:feature_ambient` Module**: Audio playback service, exoplayer audio mixing, media session integrations.
-- **`:feature_pro` Module**: Google Play Billing flows, subscription lock guards, paywall screens.
-- **`:core_data` Module**: Room databases, image caching, local file export systems, billing APIs, and remote vector assets fetching.
-
-### Required Android Permissions
-- Standard Android Internet & Storage permissions
-
----
-
-## 📱 How to Use
-
-### 1. Creative Toolkit
-
-
-
----
-
-## 🚀 Key Features
-
-- **Creative Toolkit**: 
-
----
-
-## 🛠️ Tech Stack & Architecture
-
-- **Language**: Kotlin
-- **UI Framework**: Jetpack Compose (Material Design 3)
-- **Architecture**: Clean Architecture + MVVM / MVI
-- **Local Storage**: Room Database & DataStore
-- **Async Operations**: Kotlin Coroutines & StateFlow
-- **Build System**: Gradle Kotlin DSL
-- **Min SDK**: 26 | **Target SDK**: 34
-
----
-
-## 💻 Getting Started
-
-### Prerequisites
-- Android Studio Ladybug (2024.2.1+) or newer
-- JDK 17+
-- Android SDK 34+
-
-### Building & Running
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/hsinidev/Coloring-Book.git
-   cd Coloring-Book
-   ```
-2. Open the project in Android Studio.
-3. Sync Gradle dependencies and run on an Android device or emulator.
-
----
-
-## 📬 Contact & Support
-
-Created and maintained by **Hsini**.
-
-- **Website**: [hsini.dev](https://hsini.dev)
-- **Email**: [contact@hsini.dev](mailto:contact@hsini.dev)
-- **GitHub**: [@hsinidev](https://github.com/hsinidev)
-
----
-
-© 2026 [hsini.dev](https://hsini.dev). All rights reserved.
-
----
 ## 🚀 Quick Start & Installation
 
 ### 1. Clone the Repository
